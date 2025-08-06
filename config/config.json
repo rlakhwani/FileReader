@@ -1,0 +1,6 @@
+{
+  "csv": ["id", "name", "email"],
+  "json": ["id", "username", "contact"],
+  "xml": ["id", "name", "email"],
+  "avro": ["id", "name", "email"]
+}

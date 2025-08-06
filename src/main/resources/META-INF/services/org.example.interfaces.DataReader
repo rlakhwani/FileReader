@@ -1,0 +1,4 @@
+org.example.adapters.CSVAdapter
+org.example.adapters.JSONAdapter
+org.example.adapters.XMLAdapter
+org.example.adapters.AvroAdapter
