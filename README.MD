@@ -33,7 +33,7 @@ The application also supports virtual threads for high-performance parallel file
 ## Project Structure
 src/main/java
 
-├── org/algoworks  
+├── org/example  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Main.java  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── adapters  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── AbstractFileAdapter.java  
@@ -94,4 +94,5 @@ To add a new file format (e.g. Excel):
 1. Create a new adapter class (e.g. ExcelAdapter) extending AbstractFileAdapter.
 2. Implement parseFile() for your format.
 3. Add it to META-INF/services/org.example.interfaces.DataReader.  
+
 No factory changes are required!
